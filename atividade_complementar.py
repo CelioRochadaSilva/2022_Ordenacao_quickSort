@@ -22,7 +22,7 @@ def quickSort(list, inicio=0, fim=None):
         quickSort(list, pivot + 1, fim)
 
 
-ar = [5, 9, 7, 3, 8, 10, 1, 4, 0, 2, 6]
+ar = [3, 0, 1, 8, 7, 2, 5, 4, 9, 6]
 n = len(ar)
 print(ar, " lista não ordenada")
 quickSort(ar)
